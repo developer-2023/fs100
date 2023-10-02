@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        div {
+            background-color: green;
+            border: 4px solid yellow;
+            padding: 10px;
+        }
+        .no1 {
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 30px;
+            margin-left: 40px;
+        }
+        .no2 {
+            margin: 10px 20px 30px 40px; /* top right bottom left */
+        }
+        .no3 {
+            margin: 10px 20px 30px; /* top right-left bottom */
+        }
+        .no4 {
+            margin: 10px 20px; /* top-bottom right-left */
+        }
+        .no5 {
+            margin: 10px; /* top-right-bottom-left */
+        }
+    </style>
+</head>
+<body>
+    <div class="no1">div element</div>
+    <div class="no2">div element</div>
+    <div class="no3">div element</div>
+    <div class="no4">div element</div>
+</body>
+</html>
